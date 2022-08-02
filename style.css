@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+h2, h3 {
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.disable-click {
+    pointer-events: none;
+}
+
+input {
+    height: 40px;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    height: 100%;
+}
